@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.nav-el {
+  padding-top: 14px;
+  padding-bottom: 16px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.image-logo {
+  width: 130px;
+  height: 38px;
+}
+.ul-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list-item {
+  list-style-type: none;
+  margin-right: 12px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px;
+}

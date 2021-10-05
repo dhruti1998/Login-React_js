@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.information {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  width: 100%;
+}
+.para1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 18px;
+}
+.show-now {
+  color: white;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  padding: 8px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 140px;
+  margin-top: 10px;
+}
+.fashion-image {
+  width: 400px;
+  height: 400px;
+  margin-left: 240px;
+}
